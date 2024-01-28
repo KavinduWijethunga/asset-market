@@ -29,7 +29,8 @@ const NavBar = () => {
                   {user ? null : (
                     <Link
                       href="/sign-in"
-                      className={buttonVariants({ variant: "ghost" })}>
+                      className={buttonVariants({ variant: "ghost" })}
+                    >
                       Sign In
                     </Link>
                   )}
@@ -40,8 +41,9 @@ const NavBar = () => {
 
                   {user ? null : (
                     <Link
-                      href="/sign-in"
-                      className={buttonVariants({ variant: "ghost" })}>
+                      href="/sign-up"
+                      className={buttonVariants({ variant: "ghost" })}
+                    >
                       Sign Up
                     </Link>
                   )}
