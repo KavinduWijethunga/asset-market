@@ -22,10 +22,8 @@ export default function RootLayout({
         <link rel="icon" href="./favicon.ico" type="image/x-icon" />
       </head>
       <body
-        className={cn(
-          "relative h-full font-sans antialiased",
-          inter.className
-        )}>
+        className={cn("relative h-full font-sans antialiased", inter.className)}
+      >
         <main className="relative flex flex-col min-h-screen">
           <NavBar />
           <div className="">{children}</div>
